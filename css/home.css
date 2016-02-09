@@ -1,0 +1,70 @@
+    #sentient_section{
+   		 padding-top: 5%;
+  		  padding-bottom: 1%;
+        margin-bottom: 3rem;}
+
+    .recuadro{
+      padding: 1rem;
+    }
+
+    .recuadro-dos{
+      padding: 1rem;
+      padding-bottom: 7rem;
+    }
+    .recuadro-tres{
+      padding: 1rem;
+      padding-bottom: 5rem;
+    }
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 768px){
+   			#sentient_section{
+		transform: translateY(-18%);
+	}
+}
+
+@media only screen and (min-width: 1170px){
+#sentient_section {
+    transform: translateY(-14%);
+}
+}
+
+@media only screen and (max-width: 767px){
+        .stn-btn-uno {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+        .stn-btn-dos {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+        .stn-h6{
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    #form_section{
+      background: #F6F6F6;
+    }
+
+    .sentinet-blue-text {
+        color: #002366;
+    }
+
+    .btn{
+          width: 100%;
+    border-radius: 0;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    #evolve_section{
+      background-image: url(../portada/portada.png) !important;
+      background-size: cover;
+      background-position: center;
+    }
+}
+            

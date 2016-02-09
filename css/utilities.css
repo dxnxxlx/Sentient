@@ -1,0 +1,95 @@
+@font-face{
+	font-family: PNBold;
+	src: url(../fonts/proxima-nova/proximanova-bold-webfont.ttf);
+}
+
+@font-face{
+	font-family: PNLight;
+	src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
+}
+
+@font-face{
+	font-family: PNRegitalic;
+	src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf);
+}
+
+@font-face{
+	font-family: PNRegular;
+	src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
+}
+
+@font-face{
+	font-family: PNSemibold;
+	src: url(../fonts/proxima-nova/pProximaNova-Semibold.ttf);
+}
+
+
+.profile{
+	padding-bottom: 
+}
+
+.h1{
+    font-family: "PNRegular";
+    font-size: 4.6rem;
+}
+
+.h2{
+    font-family: "PNLight";
+    font-size: 4.5rem;
+}
+
+.h3{
+    font-family: "PNLight";
+    font-size: 3rem;
+}
+
+.texto-cuerpo{
+    font-family: "PNRegular";
+    font-size: 1.8rem; 
+}
+
+.texto-recuadro{
+    font-family: "PNRegular";
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.texto-quote{
+    font-family: "PNLight";
+    font-size: 2.4rem;
+}
+
+
+.azul1{
+    color: #002366;
+}
+
+.azul2{
+    color: #179AD6;
+}
+
+.gris1{
+    color:#606060;
+}
+
+.gris2{
+    color:#979797;
+}
+
+.gris3{
+    color:#F6F6F6;
+    opacity: 0.6;
+}
+
+.borde-inf-gris {
+	margin-bottom: 30px;
+	border-bottom:1px solid #e7e7e7;
+}
+
+.in-block{
+	display: inline-block;
+}
+
+.deco-none {
+	text-decoration: none;
+}

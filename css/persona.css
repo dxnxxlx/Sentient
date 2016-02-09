@@ -1,0 +1,33 @@
+    #sentient_section{
+        background-image: url(../img/hero-image.jpg);
+        background-size: cover;
+        background-position: center;
+   		padding-top: 5%;
+  		padding-bottom: 1%;}
+
+
+    /*media queries*/
+
+     @media only screen and (max-width: 767px){
+        	#sentient_section{
+			transform: translateY(-7%);
+    }
+}
+  @media only screen and (min-width: 768px){
+   			#sentient_section{
+		transform: translateY(-24%);
+	}
+   }
+
+  @media only screen and (min-width: 1170px){
+   			#sentient_section{
+		transform: translateY(-19%);
+	}
+   }
+
+    .scroll_down{
+    	padding-top: 4%;
+    }	
+        }
+
+            
